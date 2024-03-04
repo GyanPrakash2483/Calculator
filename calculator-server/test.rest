@@ -1,6 +1,6 @@
-POST https://rare-territory-production.up.railway.app/evaluate
+POST https://calculator-production-9348.up.railway.app/evaluate
 Content-Type: application/json
 
 {
-    "expression": "5+10"
+    "expression": "5-1"
 }

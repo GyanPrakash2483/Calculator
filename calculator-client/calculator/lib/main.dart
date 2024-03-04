@@ -24,7 +24,7 @@ bool isOperator(String test) {
 
 Future<String> evaluateOut(String expression) async {
   final response = await http.post(
-    Uri.parse('https://rare-territory-production.up.railway.app/evaluate'),
+    Uri.parse('https://calculator-production-9348.up.railway.app/evaluate'),
     headers: {
       'Content-Type':
           'application/json' // 'application/x-www-form-urlencoded' or whatever you need
